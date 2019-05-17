@@ -1,0 +1,6 @@
+framework module Pods_Bandara_S_N_M_C_Cobsccomp171p_036Tests {
+  umbrella header "Pods-Bandara.S.N.M.C-Cobsccomp171p-036Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
