@@ -18,6 +18,11 @@
 		FA7C1C59228E9D3100B4BA57 /* Bandara_S_N_M_C_Cobsccomp171p_036Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C58228E9D3100B4BA57 /* Bandara_S_N_M_C_Cobsccomp171p_036Tests.swift */; };
 		FA7C1C64228E9D3100B4BA57 /* Bandara_S_N_M_C_Cobsccomp171p_036UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C63228E9D3100B4BA57 /* Bandara_S_N_M_C_Cobsccomp171p_036UITests.swift */; };
 		FA7C1C72228EB1D000B4BA57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7C1C71228EB1CF00B4BA57 /* GoogleService-Info.plist */; };
+		FA7C1C78228EEB8600B4BA57 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C1C77228EEB8600B4BA57 /* Home.storyboard */; };
+		FA7C1C7C228EEE4600B4BA57 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C1C7B228EEE4600B4BA57 /* Login.storyboard */; };
+		FA7C1C7E228EF3B900B4BA57 /* Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7D228EF3B900B4BA57 /* Login_ViewController.swift */; };
+		FA7C1C80228EF3E300B4BA57 /* Home_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7F228EF3E300B4BA57 /* Home_ViewController.swift */; };
+		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		FA7C1C63228E9D3100B4BA57 /* Bandara_S_N_M_C_Cobsccomp171p_036UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandara_S_N_M_C_Cobsccomp171p_036UITests.swift; sourceTree = "<group>"; };
 		FA7C1C65228E9D3100B4BA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7C1C71228EB1CF00B4BA57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA7C1C77228EEB8600B4BA57 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FA7C1C7B228EEE4600B4BA57 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FA7C1C7D228EF3B900B4BA57 /* Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_ViewController.swift; sourceTree = "<group>"; };
+		FA7C1C7F228EF3E300B4BA57 /* Home_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewController.swift; sourceTree = "<group>"; };
+		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,6 @@
 				15112AC19AFEAC666D9C24A1 /* Pods-Bandara.S.N.M.C-Cobsccomp171p-036UITests.debug.xcconfig */,
 				BBAF12E9722CA270E7F511D6 /* Pods-Bandara.S.N.M.C-Cobsccomp171p-036UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,9 +149,11 @@
 		FA7C1C42228E9D2E00B4BA57 /* Bandara.S.N.M.C-Cobsccomp171p-036 */ = {
 			isa = PBXGroup;
 			children = (
+				FA7C1C76228EE89400B4BA57 /* Controllers */,
+				FA7C1C75228EE88800B4BA57 /* Storyboards */,
+				FA7C1C74228EE88000B4BA57 /* Views */,
+				FA7C1C73228EE85400B4BA57 /* Models */,
 				FA7C1C43228E9D2E00B4BA57 /* AppDelegate.swift */,
-				FA7C1C45228E9D2E00B4BA57 /* ViewController.swift */,
-				FA7C1C47228E9D2E00B4BA57 /* Main.storyboard */,
 				FA7C1C71228EB1CF00B4BA57 /* GoogleService-Info.plist */,
 				FA7C1C4A228E9D3100B4BA57 /* Assets.xcassets */,
 				FA7C1C4C228E9D3100B4BA57 /* LaunchScreen.storyboard */,
@@ -167,6 +178,41 @@
 				FA7C1C65228E9D3100B4BA57 /* Info.plist */,
 			);
 			path = "Bandara.S.N.M.C-Cobsccomp171p-036UITests";
+			sourceTree = "<group>";
+		};
+		FA7C1C73228EE85400B4BA57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA7C1C74228EE88000B4BA57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA7C1C75228EE88800B4BA57 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C1C47228E9D2E00B4BA57 /* Main.storyboard */,
+				FA7C1C77228EEB8600B4BA57 /* Home.storyboard */,
+				FA7C1C7B228EEE4600B4BA57 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA7C1C76228EE89400B4BA57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C1C45228E9D2E00B4BA57 /* ViewController.swift */,
+				FA7C1C7D228EF3B900B4BA57 /* Login_ViewController.swift */,
+				FA7C1C7F228EF3E300B4BA57 /* Home_ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +326,10 @@
 			files = (
 				FA7C1C4E228E9D3100B4BA57 /* LaunchScreen.storyboard in Resources */,
 				FA7C1C72228EB1D000B4BA57 /* GoogleService-Info.plist in Resources */,
+				FA7C1C7C228EEE4600B4BA57 /* Login.storyboard in Resources */,
 				FA7C1C4B228E9D3100B4BA57 /* Assets.xcassets in Resources */,
 				FA7C1C49228E9D2E00B4BA57 /* Main.storyboard in Resources */,
+				FA7C1C78228EEB8600B4BA57 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +489,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7C1C7E228EF3B900B4BA57 /* Login_ViewController.swift in Sources */,
 				FA7C1C46228E9D2E00B4BA57 /* ViewController.swift in Sources */,
+				FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */,
 				FA7C1C44228E9D2E00B4BA57 /* AppDelegate.swift in Sources */,
+				FA7C1C80228EF3E300B4BA57 /* Home_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
