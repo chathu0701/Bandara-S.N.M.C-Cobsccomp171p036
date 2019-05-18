@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="jvd-kG-nfN" customClass="LoginViewController" customModule="Bandara_S_N_M_C_Cobsccomp171p_036" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S1i-nv-dXY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qS-TQ-Axz">

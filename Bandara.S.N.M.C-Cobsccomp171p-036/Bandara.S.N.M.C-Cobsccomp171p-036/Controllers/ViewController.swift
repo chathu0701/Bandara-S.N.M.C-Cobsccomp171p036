@@ -11,9 +11,14 @@ import Firebase
 import FirebaseAuth
 
 class ViewController: UIViewController {
+    
+    
+    var ref: DatabaseReference!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //self.saveData()
         // Do any additional setup after loading the view.
     }
     
@@ -39,6 +44,9 @@ class ViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         Auth.auth().removeStateDidChangeListener(AppTempData.userData!)
     }
+    
+    
+    
     
 
 }
