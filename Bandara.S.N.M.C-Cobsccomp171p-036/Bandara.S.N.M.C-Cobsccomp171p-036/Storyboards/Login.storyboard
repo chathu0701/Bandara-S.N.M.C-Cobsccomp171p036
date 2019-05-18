@@ -83,12 +83,20 @@
                                             <action selector="forgotpassword:" destination="jvd-kG-nfN" eventType="touchUpInside" id="lU7-28-fBC"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-3L-vwg" customClass="GIDSignInButton">
+                                        <rect key="frame" x="144" y="421" width="126" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="PLl-vs-oPU"/>
+                                            <constraint firstAttribute="width" constant="126" id="hb6-2h-frg"/>
+                                        </constraints>
+                                    </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kwx-hr-COu">
-                                        <rect key="frame" x="104" y="431" width="206" height="50"/>
+                                        <rect key="frame" x="104" y="501" width="206" height="50"/>
                                         <color key="backgroundColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="206" id="5kO-Hk-J3v"/>
-                                            <constraint firstAttribute="height" constant="50" id="cSw-m5-212"/>
+                                            <constraint firstAttribute="width" constant="206" id="9te-He-qbX"/>
+                                            <constraint firstAttribute="height" constant="50" id="gkj-ng-Nqt"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title=" CREATE ACCOUNT ">
@@ -101,23 +109,26 @@
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Kwx-hr-COu" secondAttribute="trailing" constant="104" id="2Nu-Ar-AhU"/>
                                     <constraint firstItem="MmV-1V-AZK" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="57" id="6Ze-Df-RfS"/>
                                     <constraint firstItem="m3X-AM-h8M" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="154" id="BYM-wV-iLI"/>
-                                    <constraint firstItem="Kwx-hr-COu" firstAttribute="top" secondItem="10V-jj-3Mo" secondAttribute="bottom" constant="30" id="DMN-nZ-Ywj"/>
                                     <constraint firstItem="10V-jj-3Mo" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="115" id="DSz-vQ-Hbk"/>
                                     <constraint firstAttribute="trailing" secondItem="MmV-1V-AZK" secondAttribute="trailing" constant="57" id="FB3-sf-TSO"/>
+                                    <constraint firstAttribute="trailing" secondItem="zrZ-3L-vwg" secondAttribute="trailing" constant="144" id="FGn-1S-7tE"/>
                                     <constraint firstItem="HZ8-2n-msa" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="57" id="FRO-7g-J5U"/>
-                                    <constraint firstItem="Kwx-hr-COu" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="104" id="HSb-KI-fu7"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kwx-hr-COu" secondAttribute="trailing" constant="104" id="J5R-ge-icg"/>
                                     <constraint firstAttribute="trailing" secondItem="HZ8-2n-msa" secondAttribute="trailing" constant="57" id="Npa-LL-qWa"/>
                                     <constraint firstAttribute="trailing" secondItem="dTY-gK-0CB" secondAttribute="trailing" constant="167" id="Nwa-4Z-6P4"/>
                                     <constraint firstAttribute="trailing" secondItem="10V-jj-3Mo" secondAttribute="trailing" constant="115" id="PFa-Ts-lqB"/>
+                                    <constraint firstItem="Kwx-hr-COu" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="104" id="S1Y-SX-Ngh"/>
                                     <constraint firstAttribute="trailing" secondItem="m3X-AM-h8M" secondAttribute="trailing" constant="154" id="aqQ-UK-Hdr"/>
                                     <constraint firstItem="MmV-1V-AZK" firstAttribute="top" secondItem="HZ8-2n-msa" secondAttribute="bottom" constant="25" id="bYg-b6-yOE"/>
+                                    <constraint firstItem="Kwx-hr-COu" firstAttribute="top" secondItem="zrZ-3L-vwg" secondAttribute="bottom" constant="30" id="dT5-Ri-xCO"/>
                                     <constraint firstItem="dTY-gK-0CB" firstAttribute="top" secondItem="4qS-TQ-Axz" secondAttribute="top" constant="60" id="eEX-hd-wPd"/>
                                     <constraint firstItem="dTY-gK-0CB" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="167" id="jc3-Ym-Se7"/>
                                     <constraint firstItem="HZ8-2n-msa" firstAttribute="top" secondItem="dTY-gK-0CB" secondAttribute="bottom" constant="40" id="khJ-7R-3O2"/>
                                     <constraint firstItem="10V-jj-3Mo" firstAttribute="top" secondItem="m3X-AM-h8M" secondAttribute="bottom" constant="20" id="ljX-rV-zGS"/>
+                                    <constraint firstItem="zrZ-3L-vwg" firstAttribute="leading" secondItem="4qS-TQ-Axz" secondAttribute="leading" constant="144" id="uco-B4-36B"/>
+                                    <constraint firstItem="zrZ-3L-vwg" firstAttribute="top" secondItem="10V-jj-3Mo" secondAttribute="bottom" constant="20" id="vYG-qF-kjc"/>
                                     <constraint firstItem="m3X-AM-h8M" firstAttribute="top" secondItem="MmV-1V-AZK" secondAttribute="bottom" constant="30" id="wsH-ww-q05"/>
                                 </constraints>
                             </view>
@@ -138,6 +149,7 @@
                         <outlet property="Password" destination="MmV-1V-AZK" id="5Ug-E8-HCE"/>
                         <outlet property="createAccount" destination="Kwx-hr-COu" id="NVQ-Jo-9YU"/>
                         <outlet property="forgotpassword" destination="10V-jj-3Mo" id="1xd-lR-uTW"/>
+                        <outlet property="googlesignin" destination="zrZ-3L-vwg" id="W4u-C7-eB5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eer-Zo-vea" userLabel="First Responder" sceneMemberID="firstResponder"/>

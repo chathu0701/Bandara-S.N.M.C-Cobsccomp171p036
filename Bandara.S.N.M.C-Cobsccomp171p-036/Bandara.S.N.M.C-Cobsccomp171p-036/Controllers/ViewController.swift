@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             }
             
             else {
-                //If the user has been loged
+                //If the user has been logged
                 self.performSegue(withIdentifier: "Home", sender: nil)
             
             }
