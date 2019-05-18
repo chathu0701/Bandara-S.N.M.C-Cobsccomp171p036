@@ -9,15 +9,16 @@
 
 import UIKit
 
-class HomeTableTableViewCell: UITableViewCell {
+class HomeTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var ProfileImage: UIImageView!
-    @IBOutlet weak var Name: UILabel!
-    @IBOutlet weak var City: UILabel!
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var city: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.ProfileImage.layer.cornerRadius = self.ProfileImage.bounds.height / 2
+        self.profileImage.layer.cornerRadius = self.profileImage.bounds.height / 2
+        profileImage.clipsToBounds = true
         // Initialization code
     }
 

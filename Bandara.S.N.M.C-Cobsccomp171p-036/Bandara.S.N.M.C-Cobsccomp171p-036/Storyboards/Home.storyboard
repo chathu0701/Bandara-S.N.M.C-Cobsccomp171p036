@@ -29,7 +29,7 @@
                                             <constraint firstAttribute="height" constant="676" id="Pl7-WH-dTS"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="studentPrototypeCell" rowHeight="172" id="3iD-4Y-GRs" customClass="HomeTableTableViewCell" customModule="Bandara_S_N_M_C_Cobsccomp171p_036" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="studentPrototypeCell" rowHeight="172" id="3iD-4Y-GRs" customClass="HomeTableViewCell" customModule="Bandara_S_N_M_C_Cobsccomp171p_036" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="414" height="172"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3iD-4Y-GRs" id="7eN-eR-1WS">
@@ -46,7 +46,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sdm-bL-Tef">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sdm-bL-Tef">
                                                             <rect key="frame" x="30" y="36" width="100" height="100"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="100" id="fCC-81-eZK"/>
@@ -76,9 +76,9 @@
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
-                                                    <outlet property="City" destination="r3g-ZG-92A" id="rof-P2-L4y"/>
-                                                    <outlet property="Name" destination="2R0-PL-udj" id="RmN-lh-4iv"/>
-                                                    <outlet property="ProfileImage" destination="sdm-bL-Tef" id="Vvs-80-RxH"/>
+                                                    <outlet property="city" destination="r3g-ZG-92A" id="rof-P2-L4y"/>
+                                                    <outlet property="name" destination="2R0-PL-udj" id="RmN-lh-4iv"/>
+                                                    <outlet property="profileImage" destination="sdm-bL-Tef" id="Vvs-80-RxH"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>
@@ -129,7 +129,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="82z-qU-bHz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="82z-qU-bHz">
                                 <rect key="frame" x="107" y="94" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="6wK-y9-C4D"/>

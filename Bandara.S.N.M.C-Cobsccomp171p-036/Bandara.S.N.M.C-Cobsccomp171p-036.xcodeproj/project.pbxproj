@@ -24,7 +24,7 @@
 		FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */; };
 		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
 		FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */; };
-		FAF4CA27228FC6440015707B /* HomeTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableTableViewCell.swift */; };
+		FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */; };
 		FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA2A22901DCB0015707B /* StudentModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +75,7 @@
 		FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentHomeViewController.swift; sourceTree = "<group>"; };
-		FAF4CA26228FC6440015707B /* HomeTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewCell.swift; sourceTree = "<group>"; };
+		FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FAF4CA2A22901DCB0015707B /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,7 +164,7 @@
 				FA7C1C4A228E9D3100B4BA57 /* Assets.xcassets */,
 				FA7C1C4C228E9D3100B4BA57 /* LaunchScreen.storyboard */,
 				FA7C1C4F228E9D3100B4BA57 /* Info.plist */,
-				FAF4CA26228FC6440015707B /* HomeTableTableViewCell.swift */,
+				FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */,
 			);
 			path = "Bandara.S.N.M.C-Cobsccomp171p-036";
 			sourceTree = "<group>";
@@ -505,7 +505,7 @@
 				FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */,
 				FA7C1C44228E9D2E00B4BA57 /* AppDelegate.swift in Sources */,
 				FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */,
-				FAF4CA27228FC6440015707B /* HomeTableTableViewCell.swift in Sources */,
+				FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

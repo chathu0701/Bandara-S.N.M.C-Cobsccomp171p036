@@ -138,13 +138,13 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let studentPrototypeCell = tableView.dequeueReusableCell(withIdentifier: "studentPrototypeCell", for: indexPath) as! HomeTableTableViewCell
+        let studentPrototypeCell = tableView.dequeueReusableCell(withIdentifier: "studentPrototypeCell", for: indexPath) as! HomeTableViewCell
 //
         let profImgURL = URL(string: self.studentDataSet[indexPath.row].profUrl)
-        studentPrototypeCell.ProfileImage.kf.setImage(with:profImgURL)
-        studentPrototypeCell.Name.text = self.studentDataSet[indexPath.row].firstName + " " +
+        studentPrototypeCell.profileImage.kf.setImage(with:profImgURL)
+        studentPrototypeCell.name.text = self.studentDataSet[indexPath.row].firstName + " " +
             self.studentDataSet[indexPath.row].lastName
-        studentPrototypeCell.City.text = self.studentDataSet[indexPath.row].city
+        studentPrototypeCell.city.text = self.studentDataSet[indexPath.row].city
         //
 //        return studentPrototypeCell
         
