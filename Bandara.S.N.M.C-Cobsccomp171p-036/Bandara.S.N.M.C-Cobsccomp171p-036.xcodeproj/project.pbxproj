@@ -23,6 +23,7 @@
 		FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7D228EF3B900B4BA57 /* LoginViewController.swift */; };
 		FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */; };
 		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
+		FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */; };
 		FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */; };
 		FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */; };
 		FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA2A22901DCB0015707B /* StudentModel.swift */; };
@@ -74,6 +75,7 @@
 		FA7C1C7D228EF3B900B4BA57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
+		FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentHomeViewController.swift; sourceTree = "<group>"; };
 		FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FAF4CA2A22901DCB0015707B /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				FA7C1C7D228EF3B900B4BA57 /* LoginViewController.swift */,
 				FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */,
 				FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */,
+				FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */,
 				FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */,
 				FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */,
 				FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */,
