@@ -25,6 +25,9 @@
 		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
 		FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */; };
 		FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61A2291923500464E09 /* SignUpViewController.swift */; };
+		FAF2F61D2291E06D00464E09 /* studentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */; };
+		FAF2F61F2291EB6900464E09 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61E2291EB6900464E09 /* userModel.swift */; };
+		FAF2F6212291EC7100464E09 /* ViewMyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2F6202291EC7100464E09 /* ViewMyProfile.storyboard */; };
 		FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */; };
 		FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */; };
 		FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA2A22901DCB0015707B /* StudentModel.swift */; };
@@ -78,6 +81,9 @@
 		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		FAF2F61A2291923500464E09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentViewViewController.swift; sourceTree = "<group>"; };
+		FAF2F61E2291EB6900464E09 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		FAF2F6202291EC7100464E09 /* ViewMyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewMyProfile.storyboard; sourceTree = "<group>"; };
 		FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentHomeViewController.swift; sourceTree = "<group>"; };
 		FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FAF4CA2A22901DCB0015707B /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
@@ -195,6 +201,7 @@
 			children = (
 				FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */,
 				FAF4CA2A22901DCB0015707B /* StudentModel.swift */,
+				FAF2F61E2291EB6900464E09 /* userModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +220,7 @@
 				FA7C1C47228E9D2E00B4BA57 /* Main.storyboard */,
 				FA7C1C77228EEB8600B4BA57 /* Home.storyboard */,
 				FA7C1C7B228EEE4600B4BA57 /* Login.storyboard */,
+				FAF2F6202291EC7100464E09 /* ViewMyProfile.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -226,6 +234,7 @@
 				FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */,
 				FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */,
 				FAF2F61A2291923500464E09 /* SignUpViewController.swift */,
+				FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -341,6 +350,7 @@
 			files = (
 				FA7C1C4E228E9D3100B4BA57 /* LaunchScreen.storyboard in Resources */,
 				FA7C1C72228EB1D000B4BA57 /* GoogleService-Info.plist in Resources */,
+				FAF2F6212291EC7100464E09 /* ViewMyProfile.storyboard in Resources */,
 				FA7C1C7C228EEE4600B4BA57 /* Login.storyboard in Resources */,
 				FA7C1C4B228E9D3100B4BA57 /* Assets.xcassets in Resources */,
 				FA7C1C49228E9D2E00B4BA57 /* Main.storyboard in Resources */,
@@ -506,9 +516,11 @@
 			files = (
 				FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */,
 				FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */,
+				FAF2F61F2291EB6900464E09 /* userModel.swift in Sources */,
 				FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */,
 				FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */,
 				FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */,
+				FAF2F61D2291E06D00464E09 /* studentViewViewController.swift in Sources */,
 				FA7C1C46228E9D2E00B4BA57 /* ViewController.swift in Sources */,
 				FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */,
 				FA7C1C44228E9D2E00B4BA57 /* AppDelegate.swift in Sources */,

@@ -119,6 +119,25 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "viewStudent" {
+            let indexSelect = sender as! Int
+            let studentSelect = self.studentDataSet[indexSelect]
+            
+            
+            let viewdatadestination = segue.destination as! studentViewViewController
+            viewdatadestination.studentData = studentSelect
+            
+        }
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       self.performSegue(withIdentifier: "viewStudent", sender: indexPath.row)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
     @IBAction func LogOut(_ sender: Any) {
         let firebaseAuth = Auth.auth()
