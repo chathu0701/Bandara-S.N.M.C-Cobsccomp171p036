@@ -24,6 +24,7 @@
 		FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */; };
 		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
 		FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */; };
+		FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61A2291923500464E09 /* SignUpViewController.swift */; };
 		FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */; };
 		FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */; };
 		FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA2A22901DCB0015707B /* StudentModel.swift */; };
@@ -76,6 +77,7 @@
 		FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
 		FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		FAF2F61A2291923500464E09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentHomeViewController.swift; sourceTree = "<group>"; };
 		FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FAF4CA2A22901DCB0015707B /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
@@ -164,7 +166,6 @@
 				FA7C1C43228E9D2E00B4BA57 /* AppDelegate.swift */,
 				FA7C1C71228EB1CF00B4BA57 /* GoogleService-Info.plist */,
 				FA7C1C4A228E9D3100B4BA57 /* Assets.xcassets */,
-				FA7C1C4C228E9D3100B4BA57 /* LaunchScreen.storyboard */,
 				FA7C1C4F228E9D3100B4BA57 /* Info.plist */,
 				FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */,
 			);
@@ -208,6 +209,7 @@
 		FA7C1C75228EE88800B4BA57 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				FA7C1C4C228E9D3100B4BA57 /* LaunchScreen.storyboard */,
 				FA7C1C47228E9D2E00B4BA57 /* Main.storyboard */,
 				FA7C1C77228EEB8600B4BA57 /* Home.storyboard */,
 				FA7C1C7B228EEE4600B4BA57 /* Login.storyboard */,
@@ -223,6 +225,7 @@
 				FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */,
 				FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */,
 				FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */,
+				FAF2F61A2291923500464E09 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */,
 				FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */,
 				FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */,
+				FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */,
 				FA7C1C46228E9D2E00B4BA57 /* ViewController.swift in Sources */,
 				FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */,
 				FA7C1C44228E9D2E00B4BA57 /* AppDelegate.swift in Sources */,
