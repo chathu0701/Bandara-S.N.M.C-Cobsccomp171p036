@@ -83,7 +83,7 @@ class SignUpViewController: UIViewController {
     }
     
     
-    //sign up function
+    //sign up  save function
     
     func userSignUp(){
         
@@ -237,6 +237,7 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func cancel(_ sender: Any) {
+        self.navigationController?.dismiss(animated: true)
     }
     /*
     // MARK: - Navigation

@@ -10,6 +10,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--ViewMyProfile-->
+        <scene sceneID="3K1-kh-HCC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewMyProfile" id="6Hg-s0-CjX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9hk-AJ-XKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="-463"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="R4q-RM-hhp">
             <objects>
@@ -108,7 +116,11 @@
                                     <segue destination="KMa-mS-TkW" kind="show" id="NAL-q2-u1z"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="View My Profile" id="ROd-sB-bnQ"/>
+                            <barButtonItem title="View My Profile" id="ROd-sB-bnQ">
+                                <connections>
+                                    <segue destination="6Hg-s0-CjX" kind="show" id="a5N-e0-Vsg"/>
+                                </connections>
+                            </barButtonItem>
                         </leftBarButtonItems>
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="U4u-ru-DnU">
                             <connections>
