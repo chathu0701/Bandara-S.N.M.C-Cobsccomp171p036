@@ -35,6 +35,7 @@ class UserProfileViewViewController: UIViewController {
         self.getViewUserData()
         // Do any additional setup after loading the view.
         self.profImage.layer.cornerRadius = self.profImage.bounds.height / 2
+        self.profImage.clipsToBounds = true
 
     }
     

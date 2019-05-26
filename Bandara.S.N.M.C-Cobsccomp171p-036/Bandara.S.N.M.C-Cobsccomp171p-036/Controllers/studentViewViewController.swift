@@ -34,6 +34,7 @@ class studentViewViewController: UIViewController {
         fbURL.text = studentData.fbProfile
         
         self.profImg.layer.cornerRadius = self.profImg.bounds.height / 2
+        self.profImg.clipsToBounds = true
         
         fName.layer.masksToBounds = true
         fName.layer.cornerRadius = 10
