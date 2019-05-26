@@ -595,6 +595,7 @@
                             <constraint firstItem="82z-qU-bHz" firstAttribute="top" secondItem="2u5-hi-LfQ" secondAttribute="topMargin" constant="30" id="uR6-nM-N75"/>
                             <constraint firstItem="vxA-Ck-8Ea" firstAttribute="leading" secondItem="2u5-hi-LfQ" secondAttribute="leadingMargin" constant="37" id="vWy-jr-2k4"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="fvQ-5C-Mgg"/>
                     </view>
                     <connections>
                         <outlet property="AddProfileImage" destination="V2f-CP-wxx" id="UbS-bd-I0H"/>
@@ -612,11 +613,11 @@
             </objects>
             <point key="canvasLocation" x="1212" y="-655"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--HOME-->
         <scene sceneID="bs3-MZ-jHP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dUh-H0-ee1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" image="house" id="oKv-15-s9L"/>
+                    <tabBarItem key="tabBarItem" title="HOME" image="house" id="oKv-15-s9L"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4hT-tY-86r">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -631,11 +632,11 @@
             </objects>
             <point key="canvasLocation" x="-717" y="38"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--HOME WORK-->
         <scene sceneID="Xh8-92-sq8">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ala-Vk-1Wv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" image="note" id="jNQ-6V-9ZW"/>
+                    <tabBarItem key="tabBarItem" title="HOME WORK" image="note" id="jNQ-6V-9ZW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8oK-m3-xJd">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -650,11 +651,11 @@
             </objects>
             <point key="canvasLocation" x="-717" y="798"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--PROFILE-->
         <scene sceneID="8WP-xK-AXT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eQZ-ya-eNt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" image="profile" id="Dkb-cp-Q4k"/>
+                    <tabBarItem key="tabBarItem" title="PROFILE" image="profile" id="Dkb-cp-Q4k"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jcb-IY-iKS">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
