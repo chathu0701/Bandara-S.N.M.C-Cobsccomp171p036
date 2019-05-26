@@ -26,6 +26,7 @@ target 'Bandara.S.N.M.C-Cobsccomp171p-036' do
 	pod 'SwiftyJSON'
 	pod 'Firebase/Storage'
 	pod 'Alamofire', '~>4.4'
-	pod 'Kingfisher', '~> 4.0'	
+	pod 'Kingfisher', '~> 4.0'
+	pod 'IQKeyboardManagerSwift'	
 
 end
