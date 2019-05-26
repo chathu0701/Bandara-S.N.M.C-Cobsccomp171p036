@@ -18,6 +18,7 @@ class UserProfileViewViewController: UIViewController {
     @IBOutlet weak var age: UILabel!
     @IBOutlet weak var bDate: UILabel!
     @IBOutlet weak var phone: UILabel!
+    @IBOutlet weak var back: UIBarButtonItem!
     
     let uname: String = ""
     let uage: Int = 0
@@ -33,6 +34,8 @@ class UserProfileViewViewController: UIViewController {
         
         self.getViewUserData()
         // Do any additional setup after loading the view.
+        self.profImage.layer.cornerRadius = self.profImage.bounds.height / 2
+
     }
     
     
@@ -86,4 +89,9 @@ class UserProfileViewViewController: UIViewController {
     */
 
 }
+    
+    @IBAction func back(_ sender: Any) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
 }

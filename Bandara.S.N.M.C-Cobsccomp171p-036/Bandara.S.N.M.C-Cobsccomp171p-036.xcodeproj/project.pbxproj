@@ -32,6 +32,8 @@
 		FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */; };
 		FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */; };
 		FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4CA2A22901DCB0015707B /* StudentModel.swift */; };
+		FAF691D1229A7B820046CF30 /* ViewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF691D0229A7B820046CF30 /* ViewNoteViewController.swift */; };
+		FAF691D3229A7BA40046CF30 /* NoteAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF691D2229A7BA40046CF30 /* NoteAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		FAF42DF22290679600B47BA5 /* AddStudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentHomeViewController.swift; sourceTree = "<group>"; };
 		FAF4CA26228FC6440015707B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FAF4CA2A22901DCB0015707B /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		FAF691D0229A7B820046CF30 /* ViewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNoteViewController.swift; sourceTree = "<group>"; };
+		FAF691D2229A7BA40046CF30 /* NoteAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +242,8 @@
 				FAF2F61A2291923500464E09 /* SignUpViewController.swift */,
 				FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */,
 				FAF2F6242291EEAF00464E09 /* UserProfileViewViewController.swift */,
+				FAF691D0229A7B820046CF30 /* ViewNoteViewController.swift */,
+				FAF691D2229A7BA40046CF30 /* NoteAddViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -518,6 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF2F6252291EEAF00464E09 /* UserProfileViewViewController.swift in Sources */,
+				FAF691D1229A7B820046CF30 /* ViewNoteViewController.swift in Sources */,
 				FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */,
 				FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */,
 				FAF2F61F2291EB6900464E09 /* userModel.swift in Sources */,
@@ -528,6 +535,7 @@
 				FA7C1C46228E9D2E00B4BA57 /* ViewController.swift in Sources */,
 				FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */,
 				FA7C1C44228E9D2E00B4BA57 /* AppDelegate.swift in Sources */,
+				FAF691D3229A7BA40046CF30 /* NoteAddViewController.swift in Sources */,
 				FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */,
 				FAF4CA27228FC6440015707B /* HomeTableViewCell.swift in Sources */,
 			);

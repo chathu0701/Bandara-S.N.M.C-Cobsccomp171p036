@@ -23,6 +23,7 @@ class studentViewViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      
         let imgURL = URL(string: studentData.profUrl)
         profImg.kf.setImage(with: imgURL)
         
@@ -33,7 +34,24 @@ class studentViewViewController: UIViewController {
         fbURL.text = studentData.fbProfile
         
         self.profImg.layer.cornerRadius = self.profImg.bounds.height / 2
+        
+        fName.layer.masksToBounds = true
+        fName.layer.cornerRadius = 10
+        //fName.contentEdgeInsets = UIEdgeInsets(top: 0.0, left: 30.0, bottom: 0.0, right: 30.0)
+        
+        lName.layer.masksToBounds = true
+        lName.layer.cornerRadius = 10
+        
+        city.layer.masksToBounds = true
+        city.layer.cornerRadius = 10
+        
+        phone.layer.masksToBounds = true
+        phone.layer.cornerRadius = 10
+        
+        fbURL.layer.masksToBounds = true
+        fbURL.layer.cornerRadius = 10
         // Do any additional setup after loading the view.
+       
     }
     
    
@@ -49,3 +67,4 @@ class studentViewViewController: UIViewController {
     */
 
 }
+
