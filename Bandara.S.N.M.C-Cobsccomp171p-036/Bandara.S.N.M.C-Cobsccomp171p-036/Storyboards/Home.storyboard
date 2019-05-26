@@ -418,21 +418,42 @@
             </objects>
             <point key="canvasLocation" x="334.78260869565219" y="797.28260869565224"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Authentication View Controller-->
         <scene sceneID="XHI-rM-Dgo">
             <objects>
-                <viewController id="MIl-YU-r8D" sceneMemberID="viewController">
+                <viewController id="MIl-YU-r8D" customClass="ProfileViewAuthenticationViewController" customModule="Bandara_S_N_M_C_Cobsccomp171p_036" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vl6-ml-EeO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bq7-Ph-Wgv">
+                                <rect key="frame" x="107" y="268" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3i7-Mw-xHJ"/>
+                                    <constraint firstAttribute="height" constant="200" id="g2c-Wh-3qm"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="fingerprint"/>
+                                <connections>
+                                    <action selector="ViewProf:" destination="MIl-YU-r8D" eventType="touchUpInside" id="6qx-rM-fB9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bq7-Ph-Wgv" firstAttribute="top" secondItem="bvc-a1-elW" secondAttribute="top" constant="204" id="W6m-70-TA3"/>
+                            <constraint firstItem="bvc-a1-elW" firstAttribute="trailing" secondItem="bq7-Ph-Wgv" secondAttribute="trailing" constant="107" id="kkE-2V-oEM"/>
+                            <constraint firstItem="bq7-Ph-Wgv" firstAttribute="leading" secondItem="bvc-a1-elW" secondAttribute="leading" constant="107" id="xfM-aH-o3y"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bvc-a1-elW"/>
                     </view>
                     <navigationItem key="navigationItem" id="y6u-bZ-koK"/>
+                    <connections>
+                        <segue destination="cTr-Z6-g1E" kind="show" identifier="authPath" id="D9S-o3-Ltr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZb-4O-ENF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="335" y="1573"/>
+            <point key="canvasLocation" x="334.78260869565219" y="1572.554347826087"/>
         </scene>
         <!--ViewMyProfile-->
         <scene sceneID="k9X-Iv-nzJ">
@@ -665,6 +686,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Igx-Uh-oRl" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hjF-h7-awZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -680,6 +702,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fingerprint" width="512" height="512"/>
         <image name="house" width="25" height="25"/>
         <image name="note" width="25" height="25"/>
         <image name="profile" width="25" height="25"/>

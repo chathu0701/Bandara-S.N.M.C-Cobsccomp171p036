@@ -23,6 +23,8 @@
 		FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7D228EF3B900B4BA57 /* LoginViewController.swift */; };
 		FA7C1C80228EF3E300B4BA57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */; };
 		FA7C1C82228EFA9400B4BA57 /* AppTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */; };
+		FAF2DE9F229AB82A00A3131A /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2DE9E229AB82A00A3131A /* TouchIDAuthentication.swift */; };
+		FAF2DEA1229AB88D00A3131A /* ProfileViewAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2DEA0229AB88D00A3131A /* ProfileViewAuthenticationViewController.swift */; };
 		FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */; };
 		FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61A2291923500464E09 /* SignUpViewController.swift */; };
 		FAF2F61D2291E06D00464E09 /* studentViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */; };
@@ -82,6 +84,8 @@
 		FA7C1C7D228EF3B900B4BA57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA7C1C7F228EF3E300B4BA57 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA7C1C81228EFA9400B4BA57 /* AppTempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTempData.swift; sourceTree = "<group>"; };
+		FAF2DE9E229AB82A00A3131A /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
+		FAF2DEA0229AB88D00A3131A /* ProfileViewAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewAuthenticationViewController.swift; sourceTree = "<group>"; };
 		FAF2F6182290FE0300464E09 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		FAF2F61A2291923500464E09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FAF2F61C2291E06D00464E09 /* studentViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentViewViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		FA7C1C42228E9D2E00B4BA57 /* Bandara.S.N.M.C-Cobsccomp171p-036 */ = {
 			isa = PBXGroup;
 			children = (
+				FAF2DE9E229AB82A00A3131A /* TouchIDAuthentication.swift */,
 				FA7C1C76228EE89400B4BA57 /* Controllers */,
 				FA7C1C75228EE88800B4BA57 /* Storyboards */,
 				FA7C1C74228EE88000B4BA57 /* Views */,
@@ -244,6 +249,7 @@
 				FAF2F6242291EEAF00464E09 /* UserProfileViewViewController.swift */,
 				FAF691D0229A7B820046CF30 /* ViewNoteViewController.swift */,
 				FAF691D2229A7BA40046CF30 /* NoteAddViewController.swift */,
+				FAF2DEA0229AB88D00A3131A /* ProfileViewAuthenticationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -525,10 +531,12 @@
 			files = (
 				FAF2F6252291EEAF00464E09 /* UserProfileViewViewController.swift in Sources */,
 				FAF691D1229A7B820046CF30 /* ViewNoteViewController.swift in Sources */,
+				FAF2DEA1229AB88D00A3131A /* ProfileViewAuthenticationViewController.swift in Sources */,
 				FAF2F6192290FE0300464E09 /* ResetPasswordViewController.swift in Sources */,
 				FAF4CA2B22901DCB0015707B /* StudentModel.swift in Sources */,
 				FAF2F61F2291EB6900464E09 /* userModel.swift in Sources */,
 				FAF42DF32290679600B47BA5 /* AddStudentHomeViewController.swift in Sources */,
+				FAF2DE9F229AB82A00A3131A /* TouchIDAuthentication.swift in Sources */,
 				FA7C1C7E228EF3B900B4BA57 /* LoginViewController.swift in Sources */,
 				FAF2F61B2291923500464E09 /* SignUpViewController.swift in Sources */,
 				FAF2F61D2291E06D00464E09 /* studentViewViewController.swift in Sources */,
